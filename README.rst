@@ -3,11 +3,9 @@ Go File Server
 
 This program serves files in a directory.
 
-.. warning::
-
-   There is a BIG security risk in using this program.
-   Others will be able to download your files without
-   any credentials.
+**WARNING: There is BIG security risk in using this program.
+Others will be able to download your files without
+using any credentials.**
 
 Usage
 -----
