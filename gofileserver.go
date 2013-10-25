@@ -9,12 +9,12 @@ import (
 )
 
 var port = flag.Int("port", 9999, "port number")
-var dir = flag.String("dir", "NaD", "directory to serve")
+var dir = flag.String("dir", "", "directory to serve")
 
 func main() {
     flag.Parse()
     wd, _ := os.Getwd()
-    if *dir != "NaD" {
+    if *dir != "" {
         wd = *dir
     }
 
