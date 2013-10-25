@@ -9,7 +9,7 @@ import (
 )
 
 var port = flag.Int("port", 9999, "port number")
-var dir = flag.String("dir", "NaD", "port number")
+var dir = flag.String("dir", "NaD", "directory to serve")
 
 func main() {
     flag.Parse()
