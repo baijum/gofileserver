@@ -39,3 +39,19 @@ Copy the `gofileserver` to /usr/local/bin::
   sudo cp gofileserver /usr/local/bin
 
 Run the application as given the Usage section.
+
+
+Binaries
+--------
+
+I have uploaded two binary files here.
+
+Linux binary compiled in a 32 bit CentOS 6 machine.
+(This may work in 64 bit systems also):
+
+https://dl.dropboxusercontent.com/u/37164281/gofileserver
+
+Widows binary compiled in a 32 bit Windows XP machine.
+(This may work in 64 bit systems also):
+
+https://dl.dropboxusercontent.com/u/37164281/gofileserver.exe
